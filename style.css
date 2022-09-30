@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* padding: 0 1rem; */
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(https://res.cloudinary.com/vast/raw/upload/v1664493457/AvenirLTStd-Book_x8mrya.otf);
+}
+
+@font-face {
+  font-family: Trap;
+  src: url(https://res.cloudinary.com/vast/raw/upload/v1664493456/Trap-Black_900_ebumxl.otf);
+}
+
+.logo {
+  background: white;
+  width: 100vw;
+  height: 10vh;
+  border-bottom: 10px solid black;
+  padding-left: 5rem;
+  position: relative;
+}
+
+.logo img {
+  width: 6rem;
+}
+
+.head1,
+.head2 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  position: absolute;
+  font-family: "Outfit", sans-serif;
+}
+
+h2 {
+  color: #3484ed;
+  font-family: Avenir;
+}
+
+.head2 {
+  background-color: #1e1e1e;
+  color: rgba(255, 255, 255, 0.8);
+  width: 100vw;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  height: 60px;
+  width: 297px;
+  font-size: 20px;
+  top: 200px;
+  border-radius: 8px;
+  border: 1px solid #3484ed;
+  background: #3484ed;
+  font-family: Trap;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0em;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: #ffffff;
+}
