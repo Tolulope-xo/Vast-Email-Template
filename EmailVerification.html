@@ -36,6 +36,8 @@ text-decoration: none;
   border-bottom: 10px solid black;
   padding-left: 5rem;
   padding-right: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 
@@ -43,7 +45,7 @@ h2 {
   color: #3484ed;
   font-family: Avenir;
 font-size: 36px;
-font-weight: 850;
+font-weight: 900;
 line-height: 54px;
 letter-spacing: -0.04em;
 text-align: left;
@@ -51,20 +53,27 @@ padding-top: 3rem;
 
 }
 
+.head1 h2{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
 .head2 {
   background-color: #1e1e1e;
   color: rgba(255, 255, 255, 0.8);
   width: 100%;
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
   justify-content: center;
   font-family: Avenir;
-font-size: 14px;
-/* position: absolute;
-        bottom: 0; */
+font-size: 16px;
+margin-top: 2rem;
 font-weight: 400;
+height: 20rem;
 line-height: 35px;
+margin-bottom: 0;
 letter-spacing: 0em;
+padding-top: 1rem;
 }
 
 .head1{
@@ -88,27 +97,22 @@ letter-spacing: 0em;
         line-height: 36px;
         letter-spacing: -0.04em;
       }
-button {
-  height: 3rem;
-  width: 15rem;
-  font-size: 20px;
-  top: 200px;
+.number22 {
   border-radius: 8px;
-  border: 1px solid #3484ed;
-  background: #3484ed;
   font-family: Trap;
-  font-size: 18px;
+  font-size: 35px;
   font-weight: 900;
+  color: #3484ED;
   line-height: 24px;
   letter-spacing: 0em;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
   cursor: pointer;
 }
 
-button a {
-  text-decoration: none;
-  color: #ffffff;
+.account, .regards{
+  color: black;
 }
-
 
 .vastimage {
         position: absolute;
@@ -123,33 +127,38 @@ button a {
     <table>
       <table>
       <td class="logo">
-        <img src="https://res.cloudinary.com/vast/image/upload/v1664461475/vast_yjmilv.jpg">  
+        <img  src="https://res.cloudinary.com/vast/image/upload/v1664496768/Layer_x0020_1_volof3.png"/> 
 </td>
 </table>
 <table>
   <section class="head1">
         <h2>Email Verification</h2>
-        <p>
-          Hello &ltfirst name&gt<br />
-          We're happy you signed up for Vast. 😊<br />
-          <br />🤔Ready to take your Online payment to the next level? Please
-          click on the ``verify your email” below to verify your email address
-          and complete your registration.
+        <p class="account">
+          Hello &lt;first name&gt;<br/>
+            We're happy you signed up for Vast. 😊<br/>
+            
+            🤔Ready to take your Online payment to the next level?  Please verify your email 
+            by entering the <strong>6-digit code</strong> on your mobile Application to complete 
+            your registration.
         </p>
         <br />
-        <button><a href="#">Verify Email</a></button><br />
         <br />
-        <p>
+        <span class="number22">237382<span>
+          <br />
+
+          <br />
+
+        <p class="account">
           ‍♀️Didn't create a Vast account? Please ignore this email, maybe
           someone just typed in your email address by mistake. This link will
           expire in (24)hours, so if you do not click on it in time, you will
           need to sign up again.
         </p>
         <br />
-        <p class="regards">
+        <section class="regards">
           <p>Best Regards</p>
           <p>Vast Team</p>
-        </p>
+        </section>
       </section>
       </table>
       <span>
